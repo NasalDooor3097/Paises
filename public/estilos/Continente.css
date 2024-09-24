@@ -1,0 +1,87 @@
+*
+{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    background-color: #0c192c;
+}
+
+.burbuja
+{
+    position: relative;
+    display: flex;
+    filter: blur(10px);
+}
+
+.burbuja span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 50px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s/var(--i));
+}
+
+.burbuja span:nth-child(even)
+{
+    background: hsl(339, 100%, 59%);
+    box-shadow: 0 0 0 20px #ff2d7544,
+    0 0 50px #ff2d75, 
+    0 0 50px #ff2d75;
+}
+
+@keyframes animate
+{
+    100%{
+        transform: translateY(100vh) scale(0);
+    }
+
+    0%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+.main-container
+{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding:0%;
+}
+.Europa 
+{
+    width: 350px; 
+    height: 350px;
+    border-radius: 30px;
+    position: absolute;
+    left: 40%; 
+    background: #ffffff;
+    box-shadow: 0 0 0 6px rgb(255, 255, 255, 0.2),
+    0 0 10px  #ffffff,
+    0 0 80px  #ffffff;
+}
+
+.Europa::after
+{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 40%;
+    content: "";
+    background:brown;
+    z-index: -1;
+}
