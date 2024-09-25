@@ -2,7 +2,9 @@ body
 {
     min-height: 100vh;
     background-color: #0c192c;
+    font-family: "Montserrat", "sans-serif";
 }
+
 
 .burbuja
 {
@@ -22,8 +24,8 @@ body
     box-shadow: 0 0 0 10px #4fc3dc44,
     0 0 50px #4fc3dc, 
     0 0 50px #4fc3dc;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(125s/var(--i));
+    animation: animate 10s linear infinite;
+    animation-duration: calc(400s/var(--i));
 }
 
 .burbuja span:nth-child(even)
@@ -43,6 +45,10 @@ body
     0%
     {
         transform: translateY(-10vh) scale(1);
+        background: rgb(241, 255, 46);
+        box-shadow: 0 0 0 20px rgb(241, 255, 46, 0.1),
+        0 0 50px rgb(241, 255, 46), 
+        0 0 50px rgb(241, 255, 46);
     }
 }
 
@@ -55,57 +61,79 @@ body
     margin: 0%;
     padding:0%;
 }
+
 .Europa 
 {
     width: 350px; 
     height: 350px;
     border-radius: 30px;
     position: absolute;
-    left: 35%; 
     background: #ffffff;
     box-shadow: 0 0 0 6px rgb(255, 255, 255, 0.2),
     0 0 10px  #ffffff,
     0 0 80px  #ffffff;
+    left: 37%;
+    transition: 1s linear;
+}
+.Europa:hover
+{
+    height:450px;
+    width: 450px;
 }
 
-.Europa::after
-{
+
+#container-1 {
+    width: 10%;
+    height: 200px;
+    display: block;
+    position: relative; 
+}
+
+#container-2 {
+    width: 10%;
+    height: 200px;
+    display: block;
     position: absolute;
-    width: 350px;
-    height: 350px;
-    left: 40%;
-    content: "";
-    background:brown;
-    z-index: -1;
-}
-
-#container-1
-{
-    
-    width: 30%;
-    height: 100%;
-}
-#container-2
-{
-    background: #4fc3dc;
-    float: right;
-    width: 35%;
-    height: 100%;
+    left: 88%; 
+    top: 2px;
 }
 
 
-.bandera
-{
-    position: relative;
-    display: inline-block;
-    width:27%;
-    height: 10%;
+.bandera {
+    position: relative; 
+    animation: arriba-abajo 5s infinite alternate;
+    animation-fill-mode:backwards ;
+    width: 200px;
+    height:150px;
     border-radius: 10px;
-    margin-inline: 10px;
-    background:#156e08;
-    box-shadow: 0 0 0 6px rgb(21, 110, 8, 0.1),
-    0 0 10px  #156e08,
-    0 0 40px  #156e08;
+    margin-top: 40px;
+    border: 2px solid white;
 }
 
+@keyframes arriba-abajo {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 200px; 
+    }
+}
+
+#informacion
+{
+    text-align: center;
+    position: absolute;
+    left:36.6%;
+    top:500px;
+    padding: 5px;
+    border:  2px solid white;
+    border-radius: 10px; 
+    color: white;
+    z-index: 1px;
+    height: 170px;
+    width: 370px;
+    box-shadow: 0 0 0 6px rgb(255, 255, 255, 0.2),
+    0 0 10px  #ffffff,
+    0 0 80px  #ffffff;
+}
 
