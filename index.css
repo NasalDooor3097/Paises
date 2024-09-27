@@ -1,7 +1,7 @@
 body
 {
     font-family: arial, helvetica;
-    background-color: #0c192c;
+    background-color: rgb(12, 25, 44);
     font-family: "Montserrat", "sans-serif";
 }
 
@@ -67,3 +67,17 @@ iframe
     min-height: 6000px;
 
 }
+.navbar {
+    background-color: rgba(12, 25, 44,2);
+   
+}
+
+.dropdown-menu {
+    background-color: rgba(5, 5, 5, 0.9);
+    
+}
+
+.dropdown-item:hover {
+    background-color: rgba(60, 71, 83, 0.3);
+}
+
