@@ -1,0 +1,32 @@
+body
+{
+    font-family: arial, helvetica;
+    background-color: rgb(12, 25, 44);
+    font-family: "Montserrat", "sans-serif";
+}
+
+.navegacion
+{
+    padding: 0;
+    width: 90%;
+    max-width: 100%;
+    margin:auto;
+}
+
+main
+{
+    width: 100%;
+    min-height: 600px;
+}
+iframe
+{
+    width: 100%;
+    min-height: 6000px;
+
+}
+.navbar {
+    background-color: rgba(12, 25, 44,2);
+   
+}
+
+
