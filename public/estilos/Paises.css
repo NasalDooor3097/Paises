@@ -9,12 +9,17 @@ body
 {
     min-height: 100vh;
     background-color: #0c192c;
+    font-family: "Montserrat", "sans-serif";
 }
-
+p, h1
+{
+    color: white;
+}
 .burbuja
 {
     position: relative;
     display: flex;
+    filter:blur(10px) ;
 }
 
 .burbuja span
@@ -29,7 +34,7 @@ body
     0 0 50px #4fc3dc, 
     0 0 50px #4fc3dc;
     animation: animate 15s linear infinite;
-    animation-duration: calc(125s/var(--i));
+    animation-duration: calc(400s/var(--i));
 }
 
 .burbuja span:nth-child(even)
@@ -67,12 +72,12 @@ body
 }
 .d-pais{
     margin-left: 50px;
-   margin-right: 50px;
-   margin-bottom: 40px;
-   margin-top: 20px;
-width: 100px;
-display: inline-block;
-
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 10px;
 }
 .centerNegrita{
 
@@ -87,3 +92,25 @@ font-size: 3rem;
     text-align: center;
     margin-bottom: 18px;
 }
+
+#texto
+{
+    border:  4px solid white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 0 6px rgb(255, 255, 255, 0.2),
+    0 0 10px  #ffffff,
+    0 0 80px  #ffffff;
+    left: 37%;
+}
+
+#Texto-Afganistan
+{
+    visibility: visible;
+}
+
+#Texto-Arabia
+{
+    visibility: visible;
+}
+
