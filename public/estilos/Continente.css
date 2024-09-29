@@ -199,8 +199,18 @@ body
     border-radius: 10px;
     text-align: left;
     background: rgb(14, 25, 173, 0.2);
+    width: 10%;
+}
+ol
+{
+    position: relative;
+    right: 50%;
 }
 
+ul
+{
+    position: relative;
+}
 ul a
 {
     text-decoration:none;
