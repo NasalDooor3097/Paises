@@ -114,3 +114,50 @@ font-size: 3rem;
     visibility: visible;
 }
 
+.Cargar
+{
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    align-items: center;
+    background-color: #0c192c;
+    color: white;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    outline: none;
+}
+
+.Cargar::after
+{
+    content: "";
+    width:100%;
+    height:100%;
+    background:radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(255, 94, 247, 1) 18%,
+        rgba(2, 245, 255, 1) 100%
+     );
+    filter: blur(15px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    animation: move 2s linear infinite;
+    background-size: 40% 200%;
+}
+
+@keyframes move
+{
+    0%{
+        background-position: 0 0;
+    }
+
+    100%{
+        background-position: 200px 440px;
+    }
+}
+
