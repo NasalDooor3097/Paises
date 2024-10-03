@@ -41,6 +41,15 @@ const Qatar = document.getElementById("Qatar");
 const Singapur = document.getElementById("Singapur");
 const Siria = document.getElementById("Siria");
 const SriLanka = document.getElementById("SriLanka");
+const Taiwan = document.getElementById("Taiwan");
+const Tayikistan = document.getElementById("Tayikistan");
+const Tailandia = document.getElementById("Tailandia");
+const Timor = document.getElementById("Timor");
+const Uzbekistan = document.getElementById("Uzbekistan");
+const Turkmenistan = document.getElementById("Turkmenistan");
+const Union_Emiratos = document.getElementById("Union_Emiratos");
+const Vietnam = document.getElementById("Vietnam");
+const Yemen = document.getElementById("Yemen");
 
 
 Afganistan.addEventListener("click", event =>{
@@ -249,6 +258,60 @@ Siria.addEventListener("click", event =>{
 
 SriLanka.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Anura Kumara Dissanayake <br> Ministro: Harini Amarasuriya <br> <br> <h2>Divisas</h2> <br> Rupia de Sri Lanka: 1 Rupia de Sri Lanka = 0.066 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Taiwan.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Lai Ching-te <br> <br> <h2>Divisas</h2> <br> Nuevo dolar taiwanes: 1 Nuevo dolar taiwanes = 0.60 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Tayikistan.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Emomali Rahmon <br> Ministro: Kokhir Rasulzoda <br> <br> <h2>Divisas</h2> <br> Somoni Tayiko: 1 Somoni Tayiko = 1.82 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Tailandia.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Paethongtarn Shinawatra <br> <br> <h2>Divisas</h2> <br> Baht tailandes: 1 Baht tailandes = 0.58 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Timor.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: José Ramos-Horta <br> Ministro: Longuinhos dos Santos <br> <br> <h2>Divisas</h2> <br> Dolar estadounidense: 1 Dolar estadounidense = 19.36 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Uzbekistan.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Shavkat Mirziyoyev  <br> <br> <h2>Divisas</h2> <br> Som uzbeko: 1 Som uzbeko = 0.0015 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Turkmenistan.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Serdar Berdimuhamedow  <br> <br> <h2>Divisas</h2> <br> Manat turcomano: 1 Manat turcomano = 5.54 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Union_Emiratos.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mohamed bin Zayed Al Nahayan  <br> <br> <h2>Divisas</h2> <br> Dirham de los emiratos arabes unidos: 1 Dirham de los emiratos arabes unidos = 5.27 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Vietnam.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Tô Lâm  <br> <br> <h2>Divisas</h2> <br> Dong Vietnamita: 1 Dong Vietnamita = 0.00078 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Yemen.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Rashad al-Alimi  <br> <br> <h2>Divisas</h2> <br> Rial yemení: 1 Rial yemení = 0.077 Peso mexicano";
     document.getElementById("Textos").style.visibility="visible"
 });
 
