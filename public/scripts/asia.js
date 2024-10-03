@@ -27,6 +27,15 @@ const Libano = document.getElementById("Libano");
 const Malasia = document.getElementById("Malasia");
 const Mongolia = document.getElementById("Mongolia");
 const Myanmar = document.getElementById("Myanmar");
+const Nepal = document.getElementById("Nepal");
+const Oman = document.getElementById("Oman");
+const Pakistan = document.getElementById("Pakistan");
+const Palestina = document.getElementById("Palestina");
+const Qatar = document.getElementById("Qatar");
+const Singapur = document.getElementById("Singapur");
+const Siria = document.getElementById("Siria");
+const SriLanka = document.getElementById("SriLanka");
+
 
 Afganistan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ashraf Ghani Ahmadzai <br> Ministro: Asadullah Khalid <br> <br> <h2>Divisas</h2> <br> Afgani afgano: 1 Afgani afgano = 0.29 Peso mexicano";
@@ -188,3 +197,53 @@ Myanmar.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Myint Swe <br> <br> <h2>Divisas</h2> <br> Kyat Birmano: 1 Kyat Birmano =0.0092530524 Peso mexicano";
     document.getElementById("Textos").style.visibility="visible"
 });
+
+
+Nepal.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ram Chandra Poudel <br> Ministro: Khadga Prasad Oli <br> <br> <h2>Divisas</h2> <br> Rupia Nepalí: 1 Rupia Nepalí = 0.14 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Oman.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Qabus ibn Said Oli <br> <br> <h2>Divisas</h2> <br> Rial: 1 Rial = 50.51 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Pakistan.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Asif Ali Zardari <br> Ministro: Shehbaz Sharif Oli <br> <br> <h2>Divisas</h2> <br> Rupia Pakistaní: 1 Rupia Pakistaní = 0.070 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Palestina.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mahmud Abás <br> Ministro: Mohammad Mustafa <br> <br> <h2>Divisas</h2> <br> Dinar jordano: 1 Dinar jordano = 27.45 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Qatar.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Hamad bin Jalifa Al Thani <br> Ministro: Mohammed bin Abdulrahman Al Thani <br> <br> <h2>Divisas</h2> <br> Riyal Catarí: 1 Riyal Catarí = 5.35 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Singapur.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Lawrence Wong <br> <br> <h2>Divisas</h2> <br> Dólar de Singapur: 1 Dólar de Singapur = 15.04 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+Siria.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Bashar al-Ásad <br> Ministro: Hussein Arnous <br> <br> <h2>Divisas</h2> <br> Libra siria: 1 Libra siria = 0.0014967003 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
+SriLanka.addEventListener("click", event =>{
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Anura Kumara Dissanayake <br> Ministro: Harini Amarasuriya <br> <br> <h2>Divisas</h2> <br> Rupia de Sri Lanka: 1 Rupia de Sri Lanka = 0.066 Peso mexicano";
+    document.getElementById("Textos").style.visibility="visible"
+});
+
+
