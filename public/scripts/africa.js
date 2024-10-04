@@ -55,74 +55,76 @@ const Uganda = document.getElementById("Uganda");
 const Zambia = document.getElementById("Zambia");
 const Zimbabue = document.getElementById("Zimbabue");
 
+
 var Presidente;
 var Ministro;
 
-// Angola
+
+
 Angola.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Joao Lourenço <br> Ministro: Manuel Domingos Augusto <br> <br> <h2>Divisas</h2> <br> Kwanza angoleño: 1 Kwanza = 0.036 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\Joao Lourenço.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Manuel Domingos Augusto.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/Joao Lourenço.jpeg.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Manuel Domingos Augusto.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
 
-// Argelia
+
 Argelia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Abdelmadjid Tebboune <br> Ministro: Sabri Boukadoum <br> <br> <h2>Divisas</h2> <br> Dinar argelino: 1 Dinar = 0.13 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\Abdelmadjid Tebboune.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Sabri Boukadoum.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/Abdelmadjid Tebboune.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Sabri Boukadoum.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
 
-// Benin
+
 Benin.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Patrice Talon <br> Ministro: Aurélien Agbenonci <br> <br> <h2>Divisas</h2> <br> Franco CFA: 1 Franco CFA = 0.031 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\Patrice Talon.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Aurélien Agbenonci.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/Patrice Talon.jpeg";
+    Ministro = "/public/img/Presidentes-ministros/Aurélien Agbenonci.jpeg";
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
 
-// Botsuana
+
 Botsuana.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mokgweetsi Masisi <br> Ministro: Eric Molale <br> <br> <h2>Divisas</h2> <br> Pula botsuana: 1 Pula = 1.43 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\Mokgweetsi Masisi.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Eric Molale.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/Mokgweetsi Masisi.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Eric Molale.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
 
-// Burkina Faso
+
 Burkina_Faso.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ibrahim Traoré <br> Ministro: Bassolma Bazié <br> <br> <h2>Divisas</h2> <br> Franco CFA: 1 Franco CFA = 0.031 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\Ibrahim Traoré.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Bassolma Bazié.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/Ibrahim Traoré.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Bassolma Bazié.jpeg";
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
 
-// Burundi
+
 Burundi.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Evariste Ndayishimiye <br> Ministro: Albert Shingiro <br> <br> <h2>Divisas</h2> <br> Franco burundés: 1 Franco burundés = 0.0087 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\Evariste Ndayishimiye.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Albert Shingiro.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/Evariste Ndayishimiye.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Albert Shingiro.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
 
-// Cabo Verde
+
 Cabo_Verde.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: José Maria Neves <br> Ministro: Rui Alberto de Figueiredo Soares <br> <br> <h2>Divisas</h2> <br> Escudo caboverdiano: 1 Escudo caboverdiano = 0.18 Peso mexicano";
-    Presidente = "public\img\Presidentes-ministros\José Maria Neves.jpeg"; // Espacio para la imagen del presidente
-    Ministro = "public\img\Presidentes-ministros\Rui Alberto de Figueiredo Soares.jpeg"; // Espacio para la imagen del ministro
+    Presidente = "/public/img/Presidentes-ministros/José Maria Neves.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Rui Alberto de Figueiredo Soares.jpeg";
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -130,8 +132,8 @@ Cabo_Verde.addEventListener("click", event =>{
   
 Camerun.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Paul Biya <br> Ministro: Joseph Dion Ngute <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Central: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Paul Biya.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Joseph Dion Ngute.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Paul Biya.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Joseph Dion Ngute.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -139,8 +141,8 @@ Camerun.addEventListener("click", event =>{
 
 Chad.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mahamat Idriss Déby Itno <br> Ministro: Saleh Kebzabo <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Central: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Mahamat Idriss Déby Itno.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Saleh Kebzabo.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Mahamat Idriss Déby Itno.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Saleh Kebzabo.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -148,8 +150,8 @@ Chad.addEventListener("click", event =>{
 
 Comores.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Azali Assoumani <br> Ministro: Djaffar Ahmed Said Hassani <br> <br> <h2>Divisas</h2> <br> Franco comorense: 1 Franco comorense = 0.044 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Azali Assoumani.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Djaffar Ahmed Said Hassani.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Azali Assoumani.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Djaffar Ahmed Said Hassani.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -157,8 +159,8 @@ Comores.addEventListener("click", event =>{
 
 Congo.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Denis Sassou Nguesso <br> Ministro: Anatole Collinet Makosso <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Central: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Denis Sassou Nguesso.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Anatole Collinet Makosso.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Denis Sassou Nguesso.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Anatole Collinet Makosso.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -166,8 +168,8 @@ Congo.addEventListener("click", event =>{
 
 Costa_Marfil.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Alassane Ouattara <br> Ministro: Patrick Achi <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Occidental: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Alassane Ouattara.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Patrick Achi.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Alassane Ouattara.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Patrick Achi.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -175,17 +177,17 @@ Costa_Marfil.addEventListener("click", event =>{
 
 Egipto.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Abdel Fattah el-Sisi <br> Ministro: Mostafa Madbouly <br> <br> <h2>Divisas</h2> <br> Libra egipcia: 1 Libra egipcia = 0.58 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Abdel Fattah el-Sisi.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Mostafa Madbouly.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Abdel Fattah el-Sisi.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Mostafa Madbouly.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
 });
-//eeeeeeeeeeeeeeeeeeeeeeee
+
 Eritrea.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Isaias Afwerki <br> Ministro: Osman Saleh <br> <br> <h2>Divisas</h2> <br> Nakfa eritreo: 1 Nakfa = 0.73 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Isaias Afwerki.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Osman Saleh.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Isaias Afwerki.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Osman Saleh.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -193,8 +195,8 @@ Eritrea.addEventListener("click", event =>{
 
 Etiopia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Sahle-Work Zewde <br> Ministro: Abiy Ahmed <br> <br> <h2>Divisas</h2> <br> Birr etíope: 1 Birr = 0.30 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Sahle-Work Zewde.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Abiy Ahmed.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Sahle-Work Zewde.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Abiy Ahmed.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -202,8 +204,8 @@ Etiopia.addEventListener("click", event =>{
 
 Guinea_Ecuatorial.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Teodoro Obiang Nguema Mbasogo <br> Ministro: Francisco Pascual Obama Asue <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Central: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Teodoro Obiang Nguema Mbasogo.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Francisco Pascual Obama Asue.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Teodoro Obiang Nguema Mbasogo.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Francisco Pascual Obama Asue.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -211,8 +213,8 @@ Guinea_Ecuatorial.addEventListener("click", event =>{
 
 Gabon.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ali Bongo Ondimba <br> Ministro: Rose Christiane Ossouka Raponda <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Central: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Ali Bongo Ondimba.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Rose Christiane Ossouka Raponda.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Ali Bongo Ondimba.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Rose Christiane Ossouka Raponda.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -220,8 +222,8 @@ Gabon.addEventListener("click", event =>{
 
 Gambia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Adama Barrow <br> Ministro: Dawda A. Jallow <br> <br> <h2>Divisas</h2> <br> Dalasi gambiano: 1 Dalasi = 0.31 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Adama Barrow.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Dawda A. Jallow.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Adama Barrow.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Dawda A. Jallow.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -229,8 +231,8 @@ Gambia.addEventListener("click", event =>{
 
 Ghana.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Nana Akufo-Addo <br> Ministro: Osei Bonsu Amoah <br> <br> <h2>Divisas</h2> <br> Cedi ghanés: 1 Cedi = 2.10 Pesos mexicanos";
-    Presidente = "public\\img\\Presidentes-ministros\\Nana Akufo-Addo.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Osei Bonsu Amoah.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Nana Akufo-Addo.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Osei Bonsu Amoah.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -238,8 +240,8 @@ Ghana.addEventListener("click", event =>{
 
 Guinea_Bissau.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Umaro Sissoco Embaló <br> Ministro: Nuno Nabiam <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Occidental: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Umaro Sissoco Embaló.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Nuno Nabiam.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Umaro Sissoco Embaló.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Nuno Nabiam.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -247,8 +249,8 @@ Guinea_Bissau.addEventListener("click", event =>{
 
 Guinea.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mamady Doumbouya <br> Ministro: Mohamed Béavogui <br> <br> <h2>Divisas</h2> <br> Franco guineano: 1 Franco guineano = 0.0023 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Mamady Doumbouya.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Mohamed Béavogui.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Mamady Doumbouya.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Mohamed Béavogui.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -256,8 +258,8 @@ Guinea.addEventListener("click", event =>{
 
 Isla_Mauricio.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Prithvirajsing Roopun <br> Ministro: Pravind Jugnauth <br> <br> <h2>Divisas</h2> <br> Rupia mauriciana: 1 Rupia = 0.42 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Prithvirajsing Roopun.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Pravind Jugnauth.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Prithvirajsing Roopun.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Pravind Jugnauth.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -265,8 +267,8 @@ Isla_Mauricio.addEventListener("click", event =>{
 
 Islas_Seychelles.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Wavel Ramkalawan <br> Ministro: Jean-François Ferrari <br> <br> <h2>Divisas</h2> <br> Rupia seychellense: 1 Rupia = 1.45 Pesos mexicanos";
-    Presidente = "public\\img\\Presidentes-ministros\\Wavel Ramkalawan.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Jean-François Ferrari.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Wavel Ramkalawan.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Jean-François Ferrari.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -274,8 +276,8 @@ Islas_Seychelles.addEventListener("click", event =>{
 
 Kenia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: William Ruto <br> Ministro: Rigathi Gachagua <br> <br> <h2>Divisas</h2> <br> Chelín keniano: 1 Chelín = 0.12 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\William Ruto.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Rigathi Gachagua.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/William Ruto.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Rigathi Gachagua.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -283,8 +285,8 @@ Kenia.addEventListener("click", event =>{
 
 Lesoto.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Rey: Letsie III <br> Ministro: Sam Matekane <br> <br> <h2>Divisas</h2> <br> Loti lesotense: 1 Loti = 0.91 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Letsie III.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Sam Matekane.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Letsie III.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Sam Matekane.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -292,8 +294,8 @@ Lesoto.addEventListener("click", event =>{
 
 Liberia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: George Weah <br> Ministro: Nathaniel McGill <br> <br> <h2>Divisas</h2> <br> Dólar liberiano: 1 Dólar = 0.10 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\George Weah.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Nathaniel McGill.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/George Weah.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Nathaniel McGill.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -301,8 +303,8 @@ Liberia.addEventListener("click", event =>{
 
 Libia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mohamed al-Menfi <br> Ministro: Abdul Hamid Dbeibah <br> <br> <h2>Divisas</h2> <br> Dinar libio: 1 Dinar = 3.74 Pesos mexicanos";
-    Presidente = "public\\img\\Presidentes-ministros\\Mohamed al-Menfi.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Abdul Hamid Dbeibah.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Mohamed al-Menfi.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Abdul Hamid Dbeibah.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -310,8 +312,8 @@ Libia.addEventListener("click", event =>{
 
 Madagascar.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Andry Rajoelina <br> Ministro: Christian Ntsay <br> <br> <h2>Divisas</h2> <br> Ariary malgache: 1 Ariary = 0.0047 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Andry Rajoelina.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Christian Ntsay.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Andry Rajoelina.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Christian Ntsay.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -319,8 +321,8 @@ Madagascar.addEventListener("click", event =>{
 
 Malawi.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Lazarus Chakwera <br> Ministro: Saulos Chilima <br> <br> <h2>Divisas</h2> <br> Kwacha malauí: 1 Kwacha = 0.018 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Lazarus Chakwera.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Saulos Chilima.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Lazarus Chakwera.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Saulos Chilima.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -328,8 +330,8 @@ Malawi.addEventListener("click", event =>{
 
 Mali.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Assimi Goita <br> Ministro: Abdoulaye Diop <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Occidental: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Assimi Goita.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Abdoulaye Diop.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Assimi Goita.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Abdoulaye Diop.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -337,8 +339,8 @@ Mali.addEventListener("click", event =>{
 
 Marruecos.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Rey: Mohamed VI <br> Ministro: Aziz Akhannouch <br> <br> <h2>Divisas</h2> <br> Dírham marroquí: 1 Dírham = 2.18 Pesos mexicanos";
-    Presidente = "public\\img\\Presidentes-ministros\\Mohamed VI.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Aziz Akhannouch.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Mohamed VI.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Aziz Akhannouch.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -346,8 +348,8 @@ Marruecos.addEventListener("click", event =>{
 
 Mauritania.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mohamed Ould Ghazouani <br> Ministro: Mohamed Salem Ould Béchir <br> <br> <h2>Divisas</h2> <br> Uquiya mauritana: 1 Uquiya = 0.46 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Mohamed Ould Ghazouani.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Mohamed Salem Ould Béchir.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Mohamed Ould Ghazouani.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Mohamed Salem Ould Béchir.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -355,8 +357,8 @@ Mauritania.addEventListener("click", event =>{
 
 Mozambique.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Filipe Nyusi <br> Ministro: Adriano Maleiane <br> <br> <h2>Divisas</h2> <br> Metical mozambiqueño: 1 Metical = 0.29 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Filipe Nyusi.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Adriano Maleiane.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Filipe Nyusi.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Adriano Maleiane.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -364,8 +366,8 @@ Mozambique.addEventListener("click", event =>{
 
 Namibia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Hage Geingob <br> Ministro: Netumbo Nandi-Ndaitwah <br> <br> <h2>Divisas</h2> <br> Dólar namibio: 1 Dólar = 0.91 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Hage Geingob.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Netumbo Nandi-Ndaitwah.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Hage Geingob.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Netumbo Nandi-Ndaitwah.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -373,8 +375,8 @@ Namibia.addEventListener("click", event =>{
 
 Niger.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mohamed Bazoum <br> Ministro: Ouhoumoudou Mahamadou <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Occidental: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Mohamed Bazoum.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Ouhoumoudou Mahamadou.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Mohamed Bazoum.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Ouhoumoudou Mahamadou.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -382,8 +384,8 @@ Niger.addEventListener("click", event =>{
 
 Nigeria.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Bola Tinubu <br> Ministro: Kashim Shettima <br> <br> <h2>Divisas</h2> <br> Naira nigeriano: 1 Naira = 0.022 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Bola Tinubu.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Kashim Shettima.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Bola Tinubu.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Kashim Shettima.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -391,8 +393,8 @@ Nigeria.addEventListener("click", event =>{
 
 Ruanda.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Paul Kagame <br> Ministro: Edouard Ngirente <br> <br> <h2>Divisas</h2> <br> Franco ruandés: 1 Franco = 0.017 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Paul Kagame.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Edouard Ngirente.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Paul Kagame.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Edouard Ngirente.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -400,8 +402,8 @@ Ruanda.addEventListener("click", event =>{
 
 Senegal.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Macky Sall <br> Ministro: Amadou Ba <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Occidental: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Macky Sall.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Amadou Ba.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Macky Sall.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Amadou Ba.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -409,8 +411,8 @@ Senegal.addEventListener("click", event =>{
 
 Sierra_Leona.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Julius Maada Bio <br> Ministro: Mohamed Juldeh Jalloh <br> <br> <h2>Divisas</h2> <br> Leone: 1 Leone = 0.00097 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Julius Maada Bio.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Mohamed Juldeh Jalloh.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Julius Maada Bio.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Mohamed Juldeh Jalloh.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -418,8 +420,8 @@ Sierra_Leona.addEventListener("click", event =>{
 
 Somalia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Hassan Sheikh Mohamud <br> Ministro: Hamza Abdi Barre <br> <br> <h2>Divisas</h2> <br> Chelín somalí: 1 Chelín = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Hassan Sheikh Mohamud.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Hamza Abdi Barre.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Hassan Sheikh Mohamud.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Hamza Abdi Barre.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -427,8 +429,8 @@ Somalia.addEventListener("click", event =>{
 
 Sudafrica.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Cyril Ramaphosa <br> Ministro: David Mabuza <br> <br> <h2>Divisas</h2> <br> Rand sudafricano: 1 Rand = 0.91 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Cyril Ramaphosa.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\David Mabuza.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Cyril Ramaphosa.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/David Mabuza.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -436,8 +438,8 @@ Sudafrica.addEventListener("click", event =>{
 
 Sudan.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Abdel Fattah al-Burhan <br> Ministro: Osman Hussein <br> <br> <h2>Divisas</h2> <br> Libra sudanesa: 1 Libra = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Abdel Fattah al-Burhan.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Osman Hussein.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Abdel Fattah al-Burhan.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Osman Hussein.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -445,8 +447,8 @@ Sudan.addEventListener("click", event =>{
 
 Sudan_del_Sur.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Salva Kiir Mayardit <br> Ministro: Riek Machar <br> <br> <h2>Divisas</h2> <br> Libra sursudanesa: 1 Libra = 0.16 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Salva Kiir Mayardit.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Riek Machar.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Salva Kiir Mayardit.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Riek Machar.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -454,8 +456,8 @@ Sudan_del_Sur.addEventListener("click", event =>{
 
 Tanzania.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Samia Suluhu Hassan <br> Ministro: Kassim Majaliwa <br> <br> <h2>Divisas</h2> <br> Chelín tanzano: 1 Chelín = 0.008 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Samia Suluhu Hassan.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Kassim Majaliwa.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Samia Suluhu Hassan.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Kassim Majaliwa.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -463,8 +465,8 @@ Tanzania.addEventListener("click", event =>{
 
 Togo.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Faure Gnassingbé <br> Ministro: Gilbert Houngbo <br> <br> <h2>Divisas</h2> <br> Franco CFA de África Occidental: 1 Franco CFA = 0.032 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Faure Gnassingbé.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Gilbert Houngbo.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Faure Gnassingbé.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Gilbert Houngbo.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -472,8 +474,8 @@ Togo.addEventListener("click", event =>{
 
 Tunez.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Kais Saied <br> Ministro: Najla Bouden <br> <br> <h2>Divisas</h2> <br> Dinar tunecino: 1 Dinar = 5.91 Pesos mexicanos";
-    Presidente = "public\\img\\Presidentes-ministros\\Kais Saied.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Najla Bouden.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Kais Saied.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Najla Bouden.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -481,8 +483,8 @@ Tunez.addEventListener("click", event =>{
 
 Uganda.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Yoweri Museveni <br> Ministro: Robinah Nabbanja <br> <br> <h2>Divisas</h2> <br> Chelín ugandés: 1 Chelín = 0.0048 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Yoweri Museveni.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Robinah Nabbanja.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Yoweri Museveni.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Robinah Nabbanja.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -490,8 +492,8 @@ Uganda.addEventListener("click", event =>{
 
 Zambia.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Hakainde Hichilema <br> Ministro: Mutale Nalumango <br> <br> <h2>Divisas</h2> <br> Kwacha zambiano: 1 Kwacha = 0.97 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Hakainde Hichilema.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Mutale Nalumango.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Hakainde Hichilema.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Mutale Nalumango.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
@@ -499,8 +501,8 @@ Zambia.addEventListener("click", event =>{
 
 Zimbabue.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Emmerson Mnangagwa <br> Ministro: Constantino Chiwenga <br> <br> <h2>Divisas</h2> <br> Dólar zimbabuense: 1 Dólar = 0.0028 Peso mexicano";
-    Presidente = "public\\img\\Presidentes-ministros\\Emmerson Mnangagwa.jpeg"; 
-    Ministro = "public\\img\\Presidentes-ministros\\Constantino Chiwenga.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Emmerson Mnangagwa.jpeg"; 
+    Ministro = "/public/img/Presidentes-ministros/Constantino Chiwenga.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible";
