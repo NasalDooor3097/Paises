@@ -63,7 +63,7 @@ var Ministro;
 
 Angola.addEventListener("click", event =>{  
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Joao Lourenço <br> Ministro: Manuel Domingos Augusto <br> <br> <h2>Divisas</h2> <br> Kwanza angoleño: 1 Kwanza = 0.036 Peso mexicano";
-    Presidente = "/public/img/Presidentes-ministros/Joao Lourenço.jpeg.jpeg"; 
+    Presidente = "/public/img/Presidentes-ministros/Joao Lourenço.jpeg"; 
     Ministro = "/public/img/Presidentes-ministros/Manuel Domingos Augusto.jpeg"; 
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
