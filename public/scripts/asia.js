@@ -262,144 +262,240 @@ Kazajstan.addEventListener("click", event =>{
 
 Kirguistan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Sadyr Zhaparov <br> Ministro: Akylbek Japarov <br> <br> <h2>Divisas</h2> <br> Som Kirguiso: 1 Som Kirguiso = 0.23 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Sadyr.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Japarov.png";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Kuwait.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Ahmad Nawaf Al-Ahmad Al-Sabah <br> <br> <h2>Divisas</h2> <br> Dinar Kuwaití: 1 Dinar Kuwaití = 63.48 Peso mexicano";
+    Presidente = "";
+    Ministro = "/public/img/Presidentes-ministros/Ahmad.png";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Laos.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Thongloun Sisoulith <br> <br> <h2>Divisas</h2> <br> Kip laosiano: 1 Kip laosiano = 0.00088 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Tong.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Libano.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Ministro: Najib Mikati <br> <br> <h2>Divisas</h2> <br> Libra libanesa: 1 Libra libanesa = 0.00022 Peso mexicano";
+    Presidente = "";
+    Ministro = "/public/img/Presidentes-ministros/Najib.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Malasia.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Ministro: Anwar Ibrahim <br> <br> <h2>Divisas</h2> <br> Ringgit Malayo: 1 Ringgit Malayo = 4.66 Peso mexicano";
+    Presidente = "";
+    Ministro = "/public/img/Presidentes-ministros/Ibrahim.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Mongolia.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ukhnaagiin Khürelsükh <br> <br> <h2>Divisas</h2> <br> Tugrik Mongol: 1 Tugrik Mongol = 0.01 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Ukh.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Myanmar.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Myint Swe <br> <br> <h2>Divisas</h2> <br> Kyat Birmano: 1 Kyat Birmano =0.0092530524 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Swe.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Nepal.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ram Chandra Poudel <br> Ministro: Khadga Prasad Oli <br> <br> <h2>Divisas</h2> <br> Rupia Nepalí: 1 Rupia Nepalí = 0.14 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Chandra.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Oli.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Oman.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Qabus ibn Said Oli <br> <br> <h2>Divisas</h2> <br> Rial: 1 Rial = 50.51 Peso mexicano";
+    Presidente = "";
+    Ministro = "/public/img/Presidentes-ministros/Bin.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Pakistan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Asif Ali Zardari <br> Ministro: Shehbaz Sharif Oli <br> <br> <h2>Divisas</h2> <br> Rupia Pakistaní: 1 Rupia Pakistaní = 0.070 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Asif.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Sharif.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Palestina.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mahmud Abás <br> Ministro: Mohammad Mustafa <br> <br> <h2>Divisas</h2> <br> Dinar jordano: 1 Dinar jordano = 27.45 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Abas.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Mustafa.JPG";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Qatar.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Hamad bin Jalifa Al Thani <br> Ministro: Mohammed bin Abdulrahman Al Thani <br> <br> <h2>Divisas</h2> <br> Riyal Catarí: 1 Riyal Catarí = 5.35 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Tamim.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Al.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Singapur.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Lawrence Wong <br> <br> <h2>Divisas</h2> <br> Dólar de Singapur: 1 Dólar de Singapur = 15.04 Peso mexicano";
+    Presidente = "";
+    Ministro = "/public/img/Presidentes-ministros/Wong.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Siria.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Bashar al-Ásad <br> Ministro: Hussein Arnous <br> <br> <h2>Divisas</h2> <br> Libra siria: 1 Libra siria = 0.0014967003 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Bashar.jpeg";
+    Ministro = "/public/img/Presidentes-ministros/Arnous.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 SriLanka.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Anura Kumara Dissanayake <br> Ministro: Harini Amarasuriya <br> <br> <h2>Divisas</h2> <br> Rupia de Sri Lanka: 1 Rupia de Sri Lanka = 0.066 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Anura.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Harini.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Taiwan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Lai Ching-te <br> <br> <h2>Divisas</h2> <br> Nuevo dolar taiwanes: 1 Nuevo dolar taiwanes = 0.60 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Lai.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Tayikistan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Emomali Rahmon <br> Ministro: Kokhir Rasulzoda <br> <br> <h2>Divisas</h2> <br> Somoni Tayiko: 1 Somoni Tayiko = 1.82 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Emo.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Kok.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Tailandia.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br>  Ministro: Paethongtarn Shinawatra <br> <br> <h2>Divisas</h2> <br> Baht tailandes: 1 Baht tailandes = 0.58 Peso mexicano";
+    Presidente = "";
+    Ministro = "/public/img/Presidentes-ministros/Pae.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Timor.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: José Ramos-Horta <br> Ministro: Longuinhos dos Santos <br> <br> <h2>Divisas</h2> <br> Dolar estadounidense: 1 Dolar estadounidense = 19.36 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Horta.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Santos.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Uzbekistan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Shavkat Mirziyoyev  <br> <br> <h2>Divisas</h2> <br> Som uzbeko: 1 Som uzbeko = 0.0015 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Sha.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Turkmenistan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Serdar Berdimuhamedow  <br> <br> <h2>Divisas</h2> <br> Manat turcomano: 1 Manat turcomano = 5.54 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Serdar.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Union_Emiratos.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mohamed bin Zayed Al Nahayan  <br> <br> <h2>Divisas</h2> <br> Dirham de los emiratos arabes unidos: 1 Dirham de los emiratos arabes unidos = 5.27 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Zayed.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Vietnam.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Tô Lâm  <br> <br> <h2>Divisas</h2> <br> Dong Vietnamita: 1 Dong Vietnamita = 0.00078 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Lam.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Yemen.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Rashad al-Alimi  <br> <br> <h2>Divisas</h2> <br> Rial yemení: 1 Rial yemení = 0.077 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/Ras.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
