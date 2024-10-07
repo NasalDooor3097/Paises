@@ -182,48 +182,80 @@ India.addEventListener("click", event =>{
 
 Indonesia.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Joko Widodo <br> <br> <h2>Divisas</h2> <br> Rupia Indonesia: 1 Rupia Indonesia = 0.0013 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/IndonesiaPresi.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Irak.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Abdul Latif Rashid <br> Ministro: Mohammed Shia' Al Sudani <br> <br> <h2>Divisas</h2> <br> Dinar Iraquí: 1 Dinar Iraquí = 0.015 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiIRak.jpeg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroIrak.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Iran.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Masoud Pezeshkian <br> <br> <h2>Divisas</h2> <br> Rial Iraní: 1 Rial Iraní = 0.00046 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiIran.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Isla_Maldivas.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Dr. Mohamed Muizzu <br> <br> <h2>Divisas</h2> <br> Rupia de Maldivas: 1 MVR = 1.26 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiMaldivas.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Israel.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Isaac Herzog <br> Ministro: Benjamín Netanyahu <br> <br> <h2>Divisas</h2> <br> Nuevo Séquel: 1 Nuevo Séquel = 5.13 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiIsrael.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroIsra.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Japon.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Ministro: Shigeru Ishiba <br> <br> <h2>Divisas</h2> <br> Yen Japonés: 1 Yen Japonés = 0.13 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiJapon.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Jordania.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Abdalá II Rey Abdalá <br> Ministro: Jafar Hassan <br> <br> <h2>Divisas</h2> <br> Dinar Jordano: 1 Dinar Jordano = 27.39 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiJordania.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroJordania.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Kazajstan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Kasim-Yomart Tokáev <br> <br> <h2>Divisas</h2> <br> Tenge Kazajo: 1 Tenge Kazajo = 0.040 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiKazaj.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
