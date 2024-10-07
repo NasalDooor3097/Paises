@@ -88,7 +88,7 @@ Bahrain.addEventListener("click", event =>{
 Bangladesh.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Shahabuddin Chuppu <br> Ministro: Muhammad Yunus <br> <br> <h2>Divisas</h2> <br> BDT: 1 BDT = 0.16 Peso mexicano";
     Presidente = "/public/img/Presidentes-ministros/PresiBangladesh.jpg";
-    Ministro = ""
+    Ministro = "/public/img/Presidentes-ministros/Ministrobanglades.jpg"
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
@@ -97,48 +97,85 @@ Bangladesh.addEventListener("click", event =>{
 
 Brunei.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Haji Hassanal Bolkiah Mu'izzaddin Waddaulah <br> <br> <h2>Divisas</h2> <br> Dolar de Brunéi: 1 Dolar de Brunéi = 15.08 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiBrunei.jpg";
+    Ministro = "";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Butan.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Jigme Khesar Namgyel Wangchuck <br> Ministro: Tshering Tobgay <br> <br> <h2>Divisas</h2> <br> BTN: 1 BTN = 0.23 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiButan.jpg";
+    Ministro = "/public/img/Presidentes-ministros/Ministrobutan.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Camboya.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Norodom Sihamoní <br> Ministro: Aun Porn Moniroth <br> <br> <h2>Divisas</h2> <br> Riel Camboyano: 1 Riel Camboyano = 0.0048 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiCamboya.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroCamboya.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 China.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Xi Jinping <br> Ministro: Li Qiang <br> <br> <h2>Divisas</h2> <br> Yuan Chino: 1 Yuan Chino = 2.76 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiChina.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroChina.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Corea_Norte.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Kim Jong-un <br> Ministro: Kim Tok-hun <br> <br> <h2>Divisas</h2> <br> Won Norcoreano: 1 Won Norcoreano = 0.0215814 Peso mexicano";
+
+
+
+    Presidente = "/public/img/Presidentes-ministros/PreciNortCorea.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroNortCorea.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Corea_Sur.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Yoon Suk-yeol <br> Ministro: Han Duck-soo <br> <br> <h2>Divisas</h2> <br> Won Surcoreano: 1 Won Surcoreano = 0.015 Peso mexicano";
+
+
+    Presidente = "/public/img/Presidentes-ministros/PresiSurCorea.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroSurCorea.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Filipinas.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ferdinand Marcos Jr. <br> <br> <h2>Divisas</h2> <br> Peso Filipino: 1 Peso Filipino = 0.35 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/FilipinasPresi.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroSurCorea.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 India.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidenta: Draupadi Murmu <br> Ministro: Narendra Modi <br> <br> <h2>Divisas</h2> <br> Rupia India: 1 Rupia India = 0.23 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/IndiaPresi.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinisIndia.jpg";
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
