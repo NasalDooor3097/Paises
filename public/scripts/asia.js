@@ -163,7 +163,7 @@ Corea_Sur.addEventListener("click", event =>{
 Filipinas.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ferdinand Marcos Jr. <br> <br> <h2>Divisas</h2> <br> Peso Filipino: 1 Peso Filipino = 0.35 Peso mexicano";
     Presidente = "/public/img/Presidentes-ministros/FilipinasPresi.jpg";
-    Ministro = "/public/img/Presidentes-ministros/MinistroSurCorea.jpg";
+    Ministro = "";
     document.getElementById("imgPresidente").src = Presidente;
     document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
