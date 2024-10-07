@@ -56,7 +56,7 @@ var Presidente;
 var Ministro;
 
 Afganistan.addEventListener("click", event =>{
-    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Ashraf Ghani Ahmadzai <br> Ministro: Asadullah Khalid <br> <br> <h2>Divisas</h2> <br> Afgani afgano: 1 Afgani afgano = 0.29 Peso mexicano";
+    document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Salmán bin Abdulaziz <br> Ministro: Asadullah Khalid <br> <br> <h2>Divisas</h2> <br> Afgani afgano: 1 Afgani afgano = 0.29 Peso mexicano";
     Presidente = "/public/img/Presidentes-ministros/ashraf.png";
     Ministro = "/public/img/Presidentes-ministros/ministroAfgano.png"
     document.getElementById("imgPresidente").src = Presidente;
@@ -67,18 +67,30 @@ Afganistan.addEventListener("click", event =>{
 
 Arabia.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Mohamed bin Salman <br><br> <h2>Divisas</h2> <br> 1 Riyal saudí = 5.24 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiArabia.jpg";
+    Ministro = ""
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Bahrain.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Isa ibn-Sulman Al-Jalifa <br> Ministro: Salman bin Hamad bin Isa Al Jalifa <br> <br> <h2>Divisas</h2> <br> Dinar bareiní: 1 Dinar bareiní = 51.57 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiIsaibn.jpg";
+    Ministro = "/public/img/Presidentes-ministros/MinistroBahrain.jpg"
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
 
 Bangladesh.addEventListener("click", event =>{
     document.getElementById("Textos").innerHTML = "<h2>Lideres</h2> <br> Presidente: Shahabuddin Chuppu <br> Ministro: Muhammad Yunus <br> <br> <h2>Divisas</h2> <br> BDT: 1 BDT = 0.16 Peso mexicano";
+    Presidente = "/public/img/Presidentes-ministros/PresiBangladesh.jpg";
+    Ministro = ""
+    document.getElementById("imgPresidente").src = Presidente;
+    document.getElementById("imgMinistro").src = Ministro;
     document.getElementById("texto").style.visibility="visible"
 });
 
