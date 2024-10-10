@@ -59,7 +59,7 @@ p, h1
 
 .main-container 
 {
-     background-color: rgba(79, 195, 220,0.1); 
+   
     margin: 5px  180px ;
      z-index: 10;
         position: relative;
@@ -169,5 +169,30 @@ font-size: 3rem;
     100%{
         background-position: 200px 440px;
     }
+}
+
+@media (max-width: 600px) 
+{
+    
+    #texto
+    {
+        border:none;
+        box-shadow: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main-container
+    {
+        position: absolute;
+        right:  -20%;
+        align-items: center;
+    }
+
+    .Cargar
+    {
+        visibility: hidden;
+    }
+
 }
 
